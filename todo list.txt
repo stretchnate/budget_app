@@ -1,0 +1,19 @@
+@todo's
+
+1. refactor the db structure
+	* the _buckets and booktransactions tables are obsolete and can be removed
+	* other tables have suggested changes however it might not be a terrible idea to just start from scratch using the db structure
+	from the current db as a loose guide. In either case, foreign keys need to be utilized.
+	* I'm not opposed to using postgreSQL just for fun but not necessarily rooting for it either :).
+2. Install Laravel
+
+**********************************************************
+Take a Test driven development approach from this point on
+**********************************************************
+
+3. Build Data Models
+4. Implement password hashing similar to what was done on the EventColumn site (phpass) (laravel may have a native way of doing something like this, it just needs to be better than md5).
+5. Commence building routes, controllers, views and business models (if necessary).
+	* we should use AJAX for all form submissions as generally the page is updated with new data after a form is submitted.
+	* all views need to be responsive to accomidate mobile devices (though some views may be excluded on mobile devices)
+
