@@ -1,0 +1,1 @@
+This is a test from budget_app/public/index.php. This /public/ directory is configured by homestead by default, and will later be a required folder under the Laravel directory structure. This is just created for now to show that homestead is working and rendering the site
